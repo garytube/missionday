@@ -155,7 +155,8 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title text-center title-blue">
-                            <h1>Mission Day <span>{{CITY}}</span></h1> <p>Welcome to our Community Website <br>for the Mission Day {{CITY}}! </p>
+                            <h1>Mission Day <span>{{CITY}}</span></h1> 
+                            <p>Welcome to our Community Website <br>for the Mission Day {{CITY}}! </p>
                             <hr>
                         </div>
                     </div>
@@ -168,9 +169,9 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
 						</div>
                     </div>
                     <div class="col-xs-12 col-sm-7 col-lg-6">
-                        <p class="big">Mission Day brings together Agents from both factions to explore cities around the world through the lens of Ingress with unique and local adventures on foot.</p>
-                        <p class="big">Agents, we want to discover {{CITY}} on Saturday {{MISSIONDAY DATE}}. In collaboration with the City of {{CITY}} we will provide you high quality missions to explore the city on foot together. </p>
-                        <p class="big"><strong>You need to complete at least {{AMOUNT_MISSION}} Missions for the Badge. Checkout the <a href="#mission-badges">Missions!</a></strong></p>
+                        <p>Mission Day brings together Agents from both factions to explore cities around the world through the lens of Ingress with unique and local adventures on foot.</p>
+                        <p>Agents, we want to discover {{CITY}} on Saturday {{MISSIONDAY DATE}}. In collaboration with the City of {{CITY}} we will provide you high quality missions to explore the city on foot together. </p>
+                        <p><strong>You need to complete at least {{AMOUNT_MISSION}} Missions for the Badge. Checkout the <a href="#mission-badges">Missions!</a></strong></p>
                     </div>
                 </div>
             </div>
@@ -242,8 +243,8 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
 
                 <!-- yeah we like to brag.... -->
                 <div class="section-title no-mb"> <h1>CREATED BY REAL <span>AGENTS</span></h1> </div>
-                    <p class="big">
-                        {{AMOUNT_MISSIONS}} Missions across {{CITY}} are waiting to be discovered. <br>
+                    <p>
+                        {{AMOUNT_MISSIONS}} <span class="highlight">Missions</span> across {{CITY}} are waiting to be discovered. <br>
                         All Missions are created and tested by local Agents to ensure a great Mission Day experience. Also, they will be barrier free and playable for handicapped Agents.
                     </p>
 
