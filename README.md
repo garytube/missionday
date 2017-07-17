@@ -1,3 +1,4 @@
+![Promo](http://missionday.berlin/promo-git.png)
 # Missionday Landingpage #
 a simple Missionday Landingpage based on www.missionday.berlin
 
