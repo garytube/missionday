@@ -1,29 +1,30 @@
-# README #
+# Missionday Landingpage #
+a simple Missionday Landingpage based on www.missionday.berlin
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Documentation inside index.html
 
-### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
+### Text Placeholders ###
+use your favourite text editor and simply **find & replace** them all at once...
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
++ [[##CITY NAME##]] > Name of your City
++ [[##DATE##]] > Date 
++ [[##DAY##]] > Day in Words "Saturday"
++ [[##AMOUNT##]] > Amount of Missions
++ [##COMMUNITY##]] > Link to community http://....
++ [[##URL##]] > URL to this website http://missionday...
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+### Google Maps ####
+add your api key on row 366
 
-### Who do I talk to? ###
+** How to get a API Key**
+https://developers.google.com/maps/documentation/javascript/get-api-key?hl=de
 
-* Repo owner or admin
-* Other community or team contact
+
+### Grahpics ###
+
+layered .psd (photoshop) inside  /psd
+
+SVG's inside assets/img/  -> svg's are awesome

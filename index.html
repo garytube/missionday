@@ -1,35 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- [[!agentCount]] -->
 <head>
-    <base href=" <?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']; ?>">
+    <!-- <base href="http://yourdomain.de"> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>[[++site_name]] | 08th Oct. 2016</title>
+    <title>Missionday [[##CITY NAME##]] | [[##DATE##]]</title>
 
     <!-- seo -->
-    <meta property="og:url"           content="http://domain.com[[##CITY NAME##]]/" />
+    <meta property="og:url"           content="[[##URL##]]" />
     <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="Mission Day [[##CITY NAME##]] - Mission Day [[##CITY NAME##]] 8/Oct/2016" />
+    <meta property="og:title"         content="Mission Day [[##CITY NAME##]] - Mission Day [[##CITY NAME##]] [[##DATE##]]" />
 
     <!-- this text will be shown if somebody shares your link  -->
-    <meta property="og:description"   content="Agents, we want to discover [[##CITY NAME##]] on Saturday [[##DATE OF MISSIOND]]. In collaboration with the City of [[##CITY NAME##]] we will provide you high quality missions to explore the city on foot together. Sign up to receive more information soon." />
-    <meta property="og:image"           content="http://domain.com[[##CITY NAME##]]/promo.jpg">
+    <meta property="og:description"   content="Agents, we want to discover [[##CITY NAME##]] on [[##DAY##]] [[##DATE##]]. In collaboration with the City of [[##CITY NAME##]] we will provide you high quality missions to explore the city on foot together. Sign up to receive more information soon." />
+    <meta property="og:image"           content="[[##URL##]][[##CITY NAME##]]/promo.jpg">
     <meta property="og:image:type"      content="image/jpeg">
     <meta property="og:locale"          content="en_US">
-    <meta name="description"            content="Agents, we want to discover [[##CITY NAME##]] on Saturday [[##DATE OF MISSIOND]]. In collaboration with the City of [[##CITY NAME##]] we will provide you high quality missions to explore the city on foot together. Sign up to receive more information soon.">
+    <meta name="description"            content="Agents, we want to discover [[##CITY NAME##]] on [[##DAY##]] [[##DATE##]]. In collaboration with the City of [[##CITY NAME##]] we will provide you high quality missions to explore the city on foot together. Sign up to receive more information soon.">
     <!-- set time when page is created -->
     <meta property="og:updated_time" content="2017-04-10T10:41:15-0500">       
     <meta name="twitter:title" content="Mission Day [[##CITY NAME##]]">
-    <meta name="twitter:url"  content="http://domain.com/">
+    <meta name="twitter:url"  content="[[##URL##]]/">
     <meta name="keywords" content="Missionday, [[##CITY NAME##]], ingress, resistance, enl, res, besmurf">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:description" content="Agents, we want to discover [[##CITY NAME##]] on Saturday [[##DATE OF MISSIOND]]. In collaboration with the City of [[##CITY NAME##]] we will provide you high quality missions to explore the city on foot together. Sign up to re">
+    <meta name="twitter:description" content="Agents, we want to discover [[##CITY NAME##]] on [[##DAY##]] [[##DATE##]]. In collaboration with the City of [[##CITY NAME##]] we will provide you high quality missions to explore the city on foot together. Sign up to re">
 
     <!-- Set Domain // this is the image that will be shown on gplus if somebody post the link to the website -->
-    <meta name="twitter:image" content="http://DOMAIN.COM/promo-city.jpg">
+    <meta name="twitter:image" content="promo-city.jpg">
     
     <!-- css / fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -66,7 +65,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-2 ">
                             <div class="logo">
-                                <a href="http://missionday.{{CITY}}/"><img src="assets/img/md-logo.svg" class="mdlogo" alt="Missionday"></a>
+                                <a href="/"><img src="assets/img/md-logo.svg" class="mdlogo" alt="Missionday"></a>
                             
                             </div>
                         </div>
@@ -102,8 +101,8 @@ Add your own background image
                     <div class="col-xs-12 col-sm-8 col-lg-7">
                         <div class="banner-text">
                             <div class="banner-table-cell">
-                                <h1>INGRESS<br><span>MISSION DAY </span>{{CITY}}</h1>
-                                <p>Agents, we want to discover {{CITY}} on Saturday {{MISSIONDAY DATE}}. In collaboration with the City of {{CITY}} we will provide you <strong><span> high quality </span></strong>missions to explore the city on foot together. Sign up to receive more information soon. </p>
+                                <h1>INGRESS<br><span>MISSION DAY </span>[[##CITY NAME##]]</h1>
+                                <p>Agents, we want to discover [[##CITY NAME##]] on [[##DAY##]] {{MISSIONDAY DATE}}. In collaboration with the City of [[##CITY NAME##]] we will provide you <strong><span> high quality </span></strong>missions to explore the city on foot together. Sign up to receive more information soon. </p>
                                 <div class="banner-buttons">
                                     <a href="#missions" class="button-default button-md">Our Missions</a>
                                 </div>
@@ -120,7 +119,7 @@ Add your own background image
 
                                 ##############
                                  -->
-                                <img src="assets/img/banner-mobile.png" alt="Missionday {{CITY}}" class="floatright">
+                                <img src="assets/img/banner-mobile.png" alt="Missionday [[##CITY NAME##]]" class="floatright">
                             </div>
                         </div>    
                     </div>
@@ -155,7 +154,8 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title text-center title-blue">
-                            <h1>Mission Day <span>{{CITY}}</span></h1> <p>Welcome to our Community Website <br>for the Mission Day {{CITY}}! </p>
+                            <h1>Mission Day <span>[[##CITY NAME##]]</span></h1> 
+                            <p>Welcome to our Community Website <br>for the Mission Day [[##CITY NAME##]]! </p>
                             <hr>
                         </div>
                     </div>
@@ -164,13 +164,13 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
                     <div class="col-lg-offset-1 col-md-offset-0 col-sm-offset-0 col-sm-5">
 						<div class="about-image">
                             <!-- add a nice picture of your city here -->
-							<img  src="assets/img/promo-city.jpg" alt="Missionday {{CITY}}">
+							<img  src="assets/img/promo-city.jpg" alt="Missionday [[##CITY NAME##]]">
 						</div>
                     </div>
                     <div class="col-xs-12 col-sm-7 col-lg-6">
-                        <p class="big">Mission Day brings together Agents from both factions to explore cities around the world through the lens of Ingress with unique and local adventures on foot.</p>
-                        <p class="big">Agents, we want to discover {{CITY}} on Saturday {{MISSIONDAY DATE}}. In collaboration with the City of {{CITY}} we will provide you high quality missions to explore the city on foot together. </p>
-                        <p class="big"><strong>You need to complete at least {{AMOUNT_MISSION}} Missions for the Badge. Checkout the <a href="#mission-badges">Missions!</a></strong></p>
+                        <p>Mission Day brings together Agents from both factions to explore cities around the world through the lens of Ingress with unique and local adventures on foot.</p>
+                        <p>Agents, we want to discover [[##CITY NAME##]] on [[##DAY##]] {{MISSIONDAY DATE}}. In collaboration with the City of [[##CITY NAME##]] we will provide you high quality missions to explore the city on foot together. </p>
+                        <p><strong>You need to complete at least [[##AMOUNT##]] Missions for the Badge. Checkout the <a href="#mission-badges">Missions!</a></strong></p>
                     </div>
                 </div>
             </div>
@@ -186,15 +186,11 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
 
 <section id="missions">
         <div class="container clearfix">
-            <div class="section-title">
-                <div class="col-xs-12 text-center">
-                        <a href=""><img src="assets/img/md-logo.svg" style="width:200px" class="mdlogo left mission-logo"></a>
-                </div>
-                 
-            </div>
-
+                
+                <img src="assets/img/md-blank.svg" class="mdlogo">
 
                 <!-- col mission badge images -->
+                <div class="row">
                 <div class="col-sm-6 col-md-5" style="text-align:center"> 
                     <!-- 
                      Berlin had 24 Missions - this is also niantics limit for missiondays atm.
@@ -246,8 +242,8 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
 
                 <!-- yeah we like to brag.... -->
                 <div class="section-title no-mb"> <h1>CREATED BY REAL <span>AGENTS</span></h1> </div>
-                    <p class="big">
-                        {{AMOUNT_MISSIONS}} Missions across {{CITY}} are waiting to be discovered. <br>
+                    <p>
+                        {{AMOUNT_MISSIONS}} <span class="highlight">Missions</span> across [[##CITY NAME##]] are waiting to be discovered. <br>
                         All Missions are created and tested by local Agents to ensure a great Mission Day experience. Also, they will be barrier free and playable for handicapped Agents.
                     </p>
 
@@ -280,6 +276,7 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
                     <li class="mID-23">Mission Name 23</li>
                  </ul><!-- end Mission Name List -->
             </div><!-- end col for missionday name list -->
+            </div><!-- end row -->
         </div> <!-- end container -->
 </section>
 
@@ -292,7 +289,7 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
         <div class="row">
             <div class="col-md-9 col-md-offset-2">
                 <div class="section-title text-center title-blue">
-                    <h1>Timetable<span> MD: {{CITY}}</span></h1>
+                    <h1>Timetable<span> MD: [[##CITY NAME##]]</span></h1>
                     <p class="big text-center">Our Timetable is not yet final. We will keep you updated!</p>
                 </div>
             </div>
@@ -342,8 +339,8 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
                    
                     <!-- We used a custom Sign-Up Script - you can add a Link to your Sign-Up thingy here or just link to the community -->
                     <div class="signup-box wow fadeInUp">
-                         <img src="assets/img/md-logo.svg" class="mdlogo" >
-                         <a href="http://link.to/Community" class="btn2">Community</a>
+                         <img src="assets/img/md-blank.svg" class="mdlogo" >
+                         <a href="[[##COMMUNITY##]]" class="btn2">Community</a>
                      </div>
                      <!-- end signup -->
 
@@ -352,7 +349,7 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
        </div><!-- end container -->
 </section>
 <footer >
-    <small> copyright 2017 by missionday.{{CITY}} | a {{CITY}} ingress cross faction project | this is not the official niantic page></small>
+    <small> copyright 2017 by missionday.[[##CITY NAME##]] | a [[##CITY NAME##]] ingress cross faction project | this is not the official niantic page></small>
 </footer>
 	<!-- js -->
 	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
@@ -366,7 +363,7 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
 
             NOTE: you need to white list every domain that you are gonna use also localhost if you working localy
     -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY"  type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbaSekki3-X1lIpjUAxGVwKOkCjGI5560"  type="text/javascript"></script>
  
 
  
@@ -387,12 +384,13 @@ function initialize() {
 
         //add locations
         // We used a CMS SYSTEM TO DO THIS .... Maybe i will write php script for it....
-        // Just copy the rows and eddit the Name and LAT / LONG and ICON
-        // This will be rendered on the map and gives the agent a good sense about how big this... 
+        // Just copy the rows and edit the Name and LAT / LONG and ICON
+        // This will be rendered on the map
 
         var locations = [
-            ['<h5 stlye="margin-bottom:5px"><strong>NAME OF MISSION 01</strong></h5>', 52.5050224, 13.4375013, 'assets/mission-badge/01.png'], // each entry has a , at the end
-            ['<h5 stlye="margin-bottom:5px"><strong>NAME OF MSIION 02</strong></h5>', 52.5050224, 13.4375013, 'assets/mission-badge/02.png'] // last row has !NO! ,
+            ['<h5 stlye="margin-bottom:5px; font-weight:bold">NAME OF MISSION 01</h5>', 52.5050224, 13.4375013, 'assets/mission-badge/01.png'], // each entry has a , at the end
+            ['<h5 stlye="margin-bottom:5px; font-weight:bold">NAME OF MISSION 02</h5>', 52.5050224, 13.4375013, 'assets/mission-badge/02.png'], // each entry has a , at the end
+            ['<h5 stlye="margin-bottom:5px; font-weight:bold">NAME OF MSIION 03</h5>', 52.5050224, 13.4375013, 'assets/mission-badge/03.png'] // last row has !NO! ,
         ];
         //declare marker call it 'i'
         var marker, i;
