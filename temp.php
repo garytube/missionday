@@ -29,7 +29,7 @@
     <meta name="twitter:description" content="Agents, we want to discover [[##CITY NAME##]] on Saturday [[##DATE OF MISSIOND]]. In collaboration with the City of [[##CITY NAME##]] we will provide you high quality missions to explore the city on foot together. Sign up to re">
 
     <!-- Set Domain // this is the image that will be shown on gplus if somebody post the link to the website -->
-    <meta name="twitter:image" content="promo-city.jpg">
+    <meta name="twitter:image" content="http://DOMAIN.COM/promo-city.jpg">
     
     <!-- css / fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -186,11 +186,15 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
 
 <section id="missions">
         <div class="container clearfix">
-                
-                <img src="assets/img/md-blank.svg" class="mdlogo">
+            <div class="section-title">
+                <div class="col-xs-12 text-center">
+                        <a href=""><img src="assets/img/md-logo.svg" style="width:200px" class="mdlogo left mission-logo"></a>
+                </div>
+                 
+            </div>
+
 
                 <!-- col mission badge images -->
-                <div class="row">
                 <div class="col-sm-6 col-md-5" style="text-align:center"> 
                     <!-- 
                      Berlin had 24 Missions - this is also niantics limit for missiondays atm.
@@ -276,7 +280,6 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
                     <li class="mID-23">Mission Name 23</li>
                  </ul><!-- end Mission Name List -->
             </div><!-- end col for missionday name list -->
-            </div><!-- end row -->
         </div> <!-- end container -->
 </section>
 
@@ -339,7 +342,7 @@ https://www.google.com/maps/d/viewer?mid=11SksJmgINlqaGuzc1eLbRAGRHko
                    
                     <!-- We used a custom Sign-Up Script - you can add a Link to your Sign-Up thingy here or just link to the community -->
                     <div class="signup-box wow fadeInUp">
-                         <img src="assets/img/md-blank.svg" class="mdlogo" >
+                         <img src="assets/img/md-logo.svg" class="mdlogo" >
                          <a href="http://link.to/Community" class="btn2">Community</a>
                      </div>
                      <!-- end signup -->
@@ -388,8 +391,8 @@ function initialize() {
         // This will be rendered on the map and gives the agent a good sense about how big this... 
 
         var locations = [
-            ['<h5 stlye="margin-bottom:5px; font-weight:bold">NAME OF MISSION 01</h5>', 52.5050224, 13.4375013, 'assets/mission-badge/01.png'], // each entry has a , at the end
-            ['<h5 stlye="margin-bottom:5px; font-weight:bold">NAME OF MSIION 02</h5>', 52.5050224, 13.4375013, 'assets/mission-badge/02.png'] // last row has !NO! ,
+            ['<h5 stlye="margin-bottom:5px"><strong>NAME OF MISSION 01</strong></h5>', 52.5050224, 13.4375013, 'assets/mission-badge/01.png'], // each entry has a , at the end
+            ['<h5 stlye="margin-bottom:5px"><strong>NAME OF MSIION 02</strong></h5>', 52.5050224, 13.4375013, 'assets/mission-badge/02.png'] // last row has !NO! ,
         ];
         //declare marker call it 'i'
         var marker, i;

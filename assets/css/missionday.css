@@ -415,10 +415,11 @@ section#timetable {
 .logo a {
     display: inline-block
 }
-.mdlogo {
+header .mdlogo {
     width: 120px;
     margin-top: -35px;
 }
+
 #main-menu {
     left: 0;
     position: absolute;
