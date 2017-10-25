@@ -1,1 +1,128 @@
-@media (min-width:1400px) and (max-width:1920px){.container{width:1200px}.about-text{margin-right:72px;margin-top:75px}.footer-area:before{height:460px}.footer-area{margin-top:-102px;padding-top:322px}.banner-area.banner-image{height:1050px}.domain-name-area{padding-bottom:400px;padding-top:380px}.box .footer-area::before{height:372px}.box .domain-name-area::after,.box .domain-name-area::before{height:345px}.box .domain-name-area{padding-bottom:370px}}@media (min-width:992px) and (max-width:1200px){.container{width:970px}.banner-area{height:724px}.banner-text h1{font-size:56px;line-height:58px;margin-bottom:10px}#main-menu{top:60px}.about-text{margin-right:0;margin-top:37px}.footer-area::before{height:283px}.footer-area{margin-top:-5px;padding-bottom:100px;padding-top:245px}.banner-area::before{height:283px}.banner-area.banner-image{height:810px}.domain-name-area{padding-bottom:315px}.banner-area .col-lg-5{padding-left:0}.banner-product-image{margin-top:59%}.banner-area.banner-horizontal::before{height:98px}.banner-area.banner-horizontal .banner-product-image{margin-top:72%}.banner-area.banner-image.horizontal{height:580px}.box .banner-area::before{height:245px}.box .domain-name-area::before{height:270px}.box .footer-area::before{height:233px}}@media (min-width:768px) and (max-width:991px){.container{width:750px}#main-menu{top:70px}.banner-area{height:620px}.banner-text h1{font-size:48px;line-height:56px;margin-bottom:30px}.banner-text p{display:none}.about-area{padding-top:121px}.about-text{margin:0}.about-text h2{margin-bottom:10px}.about-text>p{margin-bottom:12px}.about-buttons{margin-top:20px}[data-carousel-3d] [data-prev-button]{left:0}[data-carousel-3d] [data-next-button]{right:0}.footer-area{margin-top:-100px;padding-top:290px;padding-bottom:60px}.banner-area::before{height:233px}.banner-area.banner-image{height:640px}.domain-name-area{padding-bottom:305px}.banner-area .col-lg-5{padding:0}.banner-product-image{margin-top:66%}.banner-area.banner-horizontal::before{height:98px}.banner-area.banner-horizontal .banner-product-image{margin-top:75%}.banner-area.banner-image.horizontal{height:500px}.about-area.horizontal{padding:125px 0}.footer-area.horizontal{padding-bottom:122px;padding-top:122px}.box .banner-area::before,.box .domain-name-area::before,.box .footer-area::before{height:287px}.about-image{margin-right:0}}@media (max-width:767px){.highlight{font-size:1.2em;margin-bottom:20px!important}.logo{width:80px;margin:0 auto;display:block}.main-menu nav ul li a{margin-right:10px}.mission-names{column-count:1!important}.mission-logo{margin:30px auto!important;width:150px!important}.mission-badge{width:70px;height:70px;margin:10px 5px;border:none}.signup-box{width:100%!important;margin:0;padding:10px 10px 30px 10px}.main-menu{display:block;text-align:center}.menu-btn.button-default.button-blue{display:none}.container{width:320px}#main-menu{top:40px}.banner-area{height:610px}.banner-text h1{font-size:27px;line-height:28px;margin-bottom:20px}.banner-text p{font-size:1.4rem;line-height:2.2rem;padding-right:11px}.button-default{font-size:16px;line-height:45px;padding:0 15px}.banner-buttons .button-default{margin-right:2px}.about-area{margin-top:-80px;padding-top:100px}.about-image{margin-right:0}.section-title{margin-bottom:50px}.about-text{margin-right:0;margin-top:45px}.about-buttons{margin-top:30px;z-index:99;position:relative}.about-buttons button.button-default{margin-right:4px}.section-title h1{font-size:29px;line-height:30px}.section-title h1 span{white-space:nowrap}.footer-area::before{height:110px}[data-carousel-3d] [data-prev-button]{left:0}[data-carousel-3d] [data-next-button]{right:0}.footer-area{margin-top:0;padding-bottom:65px;padding-top:130px}.footer-links a{margin:0 1px}.banner-image .banner-text{padding-top:45%}.banner-image .banner-buttons .button-default{margin-left:2px}.banner-image .banner-text h1{margin-bottom:10px;line-height:33px}.banner-image .banner-text p{margin-bottom:16px}.banner-area::before{height:115px}.banner-area.banner-image{height:620px}.domain-name-area::before{height:126px}.domain-name-area{padding-bottom:110px;padding-top:157px}.domain-name-area h1{font-size:27px}.domain-name-area::after{height:103px}.banner-area .col-lg-5{padding:0}.banner-area.banner-horizontal::before{height:55px}.banner-area.banner-image.horizontal{height:570px}.about-area.horizontal{margin-top:-100px;padding:125px 0 70px}.footer-area.horizontal{padding-bottom:110px;padding-top:120px}.box .footer-area::before{height:140px}.box .footer-area::before{height:102px}.box .section-title h1{font-size:30px}.box .footer-links a{margin:0}.box .domain-name-area h1{font-size:24px}}@media only screen and (min-width:480px) and (max-width:767px){.container{width:450px}.banner-text p{font-size:15px;margin-bottom:33px}.banner-text h1{font-size:40px}.footer-area::before{height:180px}.footer-area{margin-top:-15px;padding-top:155px}.banner-image .banner-text h1{font-size:28px;line-height:37px}.banner-area::before{height:177px}.banner-area.banner-image{height:660px}.domain-name-area::after,.domain-name-area::before{height:177px}.domain-name-area h1{font-size:24px;margin-bottom:15px}.domain-name-area{padding-bottom:175px;padding-top:175px}.box .footer-area::before{height:125px}.box .domain-name-area{padding-top:210px}}
+
+.niantic {border: 1px solid #e86e2d; color: #ffffff !important; background: transparent !important; }
+
+@media (min-width:1400px) and (max-width:1920px) {
+	.container { width: 1200px }
+	.about-text { margin-right: 72px; margin-top: 75px }
+	.footer-area:before { height: 460px }
+	.footer-area { margin-top: -102px; padding-top: 322px }
+	.banner-area.banner-image { height: 1050px }
+	.domain-name-area { padding-bottom: 400px; padding-top: 380px }
+	.box .footer-area::before { height: 372px }
+	.box .domain-name-area::after, .box .domain-name-area::before { height: 345px }
+	.box .domain-name-area { padding-bottom: 370px }
+}
+@media (min-width:992px) and (max-width:1200px) {
+	.container { width: 970px }
+	.banner-area { height: 724px }
+	.banner-text h1 { font-size: 56px; line-height: 58px; margin-bottom: 10px }
+	#main-menu { top: 60px }
+	.about-text { margin-right: 0; margin-top: 37px }
+	.footer-area::before { height: 283px }
+	.footer-area { margin-top: -5px; padding-bottom: 100px; padding-top: 245px }
+	.banner-area::before { height: 283px }
+	.banner-area.banner-image { height: 810px }
+	.domain-name-area { padding-bottom: 315px }
+	.banner-area .col-lg-5 { padding-left: 0 }
+	.banner-product-image { margin-top: 59% }
+	.banner-area.banner-horizontal::before { height: 98px }
+	.banner-area.banner-horizontal .banner-product-image { margin-top: 72% }
+	.banner-area.banner-image.horizontal { height: 580px }
+	.box .banner-area::before { height: 245px }
+	.box .domain-name-area::before { height: 270px }
+	.box .footer-area::before { height: 233px }
+}
+@media (min-width:768px) and (max-width:991px) {
+	.container { width: 750px }
+	#main-menu { top: 70px }
+	.banner-area { height: 620px }
+	.banner-text h1 { font-size: 48px; line-height: 56px; margin-bottom: 30px }
+	.banner-text p { display: none }
+	.about-area { padding-top: 121px }
+	.about-text { margin: 0 }
+	.about-text h2 { margin-bottom: 10px }
+	.about-text>p { margin-bottom: 12px }
+	.about-buttons { margin-top: 20px }
+	[data-carousel-3d] [data-prev-button] { left: 0 }
+	[data-carousel-3d] [data-next-button] { right: 0 }
+	.footer-area { margin-top: -100px; padding-top: 290px; padding-bottom: 60px }
+	.banner-area::before { height: 233px }
+	.banner-area.banner-image { height: 640px }
+	.domain-name-area { padding-bottom: 305px }
+	.banner-area .col-lg-5 { padding: 0 }
+	.banner-product-image { margin-top: 66% }
+	.banner-area.banner-horizontal::before { height: 98px }
+	.banner-area.banner-horizontal .banner-product-image { margin-top: 75% }
+	.banner-area.banner-image.horizontal { height: 500px }
+	.about-area.horizontal { padding: 125px 0 }
+	.footer-area.horizontal { padding-bottom: 122px; padding-top: 122px }
+	.box .banner-area::before, .box .domain-name-area::before, .box .footer-area::before { height: 287px }
+	.about-image { margin-right: 0 }
+}
+@media (max-width:767px) {
+	body {font-size: 14px;}
+	.highlight { font-size: 1.2em; margin-bottom: 20px !important }
+	.logo { width: 80px; margin: 0 auto; display: block }
+	.main-menu nav ul li a { margin-right: 10px }
+	.mission-names { column-count: 1 !important }
+	.mission-logo { margin: 30px auto !important; width: 150px !important }
+	.mission-badge { width: 70px; height: 70px; margin: 10px 5px; border: none }
+	.signup-box { width: 100% !important; margin: 0; padding: 10px 10px 30px 10px }
+	.main-menu { display: none; text-align: center; position: absolute; top: 0; }
+	.menu-btn.button-default.button-blue { display: none }
+	.container { width: 320px }
+	#main-menu { top: 60px; }
+	.banner-area { height: 610px }
+	.banner-text h1 { font-size: 43px; line-height: 37px; margin-bottom: 10px; }
+	.banner-text p { font-size: 1.4rem; line-height: 2.2rem; padding-right: 11px; margin-bottom: 15px; }
+	.button-default { font-size: 16px; line-height: 45px; padding: 0 15px }
+	.banner-buttons .button-default { margin-right: 2px; font-size: 14px; padding: 6px 10px; line-height: 1em; letter-spacing: 0.05em; font-weight: 600; border-radius: 0; display: inline-block !important; margin-bottom: 6px; }
+	.about-area { margin-top: -80px; padding-top: 100px }
+	.about-image { margin-right: 0 }
+	.section-title { margin-bottom: 50px }
+	.about-text { margin-right: 0; margin-top: 45px }
+	.about-buttons { margin-top: 30px; z-index: 99; position: relative }
+	.about-buttons button.button-default { margin-right: 4px }
+	.section-title h1 { font-size: 29px; line-height: 30px }
+	.section-title h1 span { white-space: nowrap }
+	.footer-area::before { height: 110px }
+	[data-carousel-3d] [data-prev-button] { left: 0 }
+	[data-carousel-3d] [data-next-button] { right: 0 }
+	.footer-area { margin-top: 0; padding-bottom: 65px; padding-top: 130px }
+	.footer-links a { margin: 0 1px }
+	.banner-image .banner-text { padding-top: 45% }
+	.banner-image .banner-buttons .button-default { margin-left: 2px }
+	.banner-image .banner-text h1 { margin-bottom: 10px; line-height: 33px }
+	.banner-image .banner-text p { margin-bottom: 16px }
+	.banner-area::before { height: 115px }
+	.banner-area.banner-image { height: 620px }
+	.domain-name-area::before { height: 126px }
+	.domain-name-area { padding-bottom: 110px; padding-top: 157px }
+	.domain-name-area h1 { font-size: 27px }
+	.domain-name-area::after { height: 103px }
+	.banner-area .col-lg-5 { padding: 0 }
+	.banner-area.banner-horizontal::before { height: 55px }
+	.banner-area.banner-image.horizontal { height: 570px }
+	.about-area.horizontal { margin-top: -100px; padding: 125px 0 70px }
+	.footer-area.horizontal { padding-bottom: 110px; padding-top: 120px }
+	.box .footer-area::before { height: 140px }
+	.box .footer-area::before { height: 102px }
+	.box .section-title h1 { font-size: 30px }
+	.box .footer-links a { margin: 0 }
+	.box .domain-name-area h1 { font-size: 24px }
+}
+@media only screen and (min-width:480px) and (max-width:767px) {
+	.container { width: 450px }
+	.banner-text p { font-size: 15px; margin-bottom: 33px }
+	.banner-text h1 { font-size: 40px }
+	.footer-area::before { height: 180px }
+	.footer-area { margin-top: -15px; padding-top: 155px }
+	.banner-image .banner-text h1 { font-size: 28px; line-height: 37px }
+	.banner-area::before { height: 177px }
+	.banner-area.banner-image { height: 660px }
+	.domain-name-area::after, .domain-name-area::before { height: 177px }
+	.domain-name-area h1 { font-size: 24px; margin-bottom: 15px }
+	.domain-name-area { padding-bottom: 175px; padding-top: 175px }
+	.box .footer-area::before { height: 125px }
+	.box .domain-name-area { padding-top: 210px }
+}
