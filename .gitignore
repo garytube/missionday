@@ -3,3 +3,4 @@ node_modules/
 *.sublime-workspace
 gulpfile.js
 package.json
+*.pyc
