@@ -25,14 +25,23 @@ section {
 }
 /* HEADER */
 .header {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+}
+.header_img {
+    position: absolute;
+    z-index: -1;
     background: url("../img/bg_header.jpg") no-repeat 50% 0;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    opacity: .65;
+    filter: blur(3px)
 }
 .logo {
     width: 150px;
-    margin: 100px 0 0 100px;
+    margin: 2vh auto;
+    display: block;
 }
 
 /* COMPONENTS */
@@ -41,6 +50,9 @@ section {
     text-align: center;
     font-size: 1.5em;
     margin: 3vh 0;
+    /* TODO выпилить позже */
+    position: absolute;
+    top: 40vh;
 }
 .countdown_text {
     text-transform: uppercase;
@@ -49,7 +61,19 @@ section {
 }
 #countdown {
     display: grid;
-    width: 60%;
     margin: 0 auto;
     grid-template-columns: repeat(4, 1fr);
+}
+
+@media (orientation: portrait) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (orientation: landscape) {
+    .countdown {
+        bottom: 5vh;
+        top: auto;
+    }
 }
